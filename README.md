@@ -39,7 +39,7 @@ This will build the Docker image, create the necessary volumes, and start the AI
 ## Usage
 To interact with the AI Assistant, send an HTTP GET request to the /chat endpoint with the email and question query parameters.
 
-##Example:
+Example:
 
 ```
 http://localhost:5437/chat?email=johndoe@example.com&question=What%20is%20the%20speed%20of%20light%3F
