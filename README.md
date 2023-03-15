@@ -28,9 +28,8 @@ During the initial setup, AI Assistant automatically downloads and configures th
 
 2. Build and run the Docker container using Docker Compose:
 
-```
+```bash
 docker-compose up -d
-```
 
 This will build the Docker image, create the necessary volumes, and start the AI Assistant service on port 5437.
 
