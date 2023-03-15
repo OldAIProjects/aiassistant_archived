@@ -23,7 +23,7 @@ During the initial setup, AI Assistant automatically downloads and configures th
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ai-assistant.git
+   git clone https://github.com/Josh-XT/ai-assistant.git
    cd ai-assistant
 
 2. Build and run the Docker container using Docker Compose:
