@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  ai_assistant:
+    build: .
+    image: ai_assistant
+    container_name: ai_assistant
+    ports:
+      - "5437:80"
+    environment:
+      - MODEL_SIZE=7
+    volumes:
+      - llama_cpp_data:/app/llama.cpp
+
+volumes:
+  llama_cpp_data:
