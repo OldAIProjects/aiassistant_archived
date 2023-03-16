@@ -17,7 +17,7 @@ pip install -r requirements.txt
 Then, start the FastAPI server:
 
 ```bash
-uvicorn main:app --host 0.0.0.0 --port 80
+uvicorn main:app --host 0.0.0.0 --port 5437
 ```
 
 ## Frontend

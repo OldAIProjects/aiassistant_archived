@@ -6,7 +6,7 @@ services:
     image: ai_assistant
     container_name: ai_assistant
     ports:
-      - "5437:80"
+      - "5437:5437"
     environment:
       - MODEL_SIZE=7
     volumes:

@@ -20,4 +20,4 @@ VOLUME /app/llama.cpp
 ENV MODEL_SIZE 7
 
 # Run app.py when the container launches
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "5437"]
