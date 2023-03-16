@@ -12,5 +12,12 @@ services:
     volumes:
       - llama_cpp_data:/app/llama.cpp
 
+  frontend:
+    build: ./ai-assistant
+    image: ai_assistant_frontend
+    container_name: ai_assistant_frontend
+    ports:
+      - "3000:3000"
+
 volumes:
   llama_cpp_data:
