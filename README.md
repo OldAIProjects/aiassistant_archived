@@ -49,4 +49,4 @@ You can also run the AI Assistant using Docker. A `Dockerfile` and `docker-compo
 docker-compose up --build
 ```
 
-This will build the Docker image and start the container. You can then access the AI Assistant API at `http://localhost:5437`.
+This will build the Docker image and start the container. You can then access the AI Assistant API at `http://localhost:5437/docs` and front end at `http://localhost:3000`.
